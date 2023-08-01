@@ -1,0 +1,52 @@
+.tab li { border-bottom:1px solid gray; background-color:#eee; }
+.tab li:hover { background-color:rgb(230, 128, 171);  }
+.ul_test1 li a { display: block; }
+.section {
+    display: flex;
+    padding: auto;
+    padding: 40px;
+    width:   60%;
+}
+.section .text {
+    margin: 5px;
+    font-size: 20px;
+}
+.wrapper {
+    display: flex;
+    padding: auto;
+    padding: 40px;
+    width:   60%;
+ 
+}
+.section .area{
+    display: flex;
+    padding: auto;
+    padding: 40px;
+    width:   60%;
+    margin-left: 500px;
+}
+.section img{
+   height: 250px;
+   margin-left: 220;
+   border-radius: 3em;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(127, 236, 250);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+}
+
+.styled:hover {
+    background-color: rgb(161, 252, 252);
+}
+body{
+    background-color: #000;
+    color: #ffffff;
+}
